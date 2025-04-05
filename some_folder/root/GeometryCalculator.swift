@@ -19,7 +19,7 @@ class GeometryCalculator {
     }
 
     func diagonalLength() -> Double {
-        return sqrt(pow(rectangle.width, 2) + pow(rectangle.height, 2))
+        return sqrt(pow(rectangle.width, 2) + pow(rectangle.height, 2)) + 1
     }
 
     func scaleRectangle(by factor: Double) {
